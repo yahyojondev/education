@@ -4,7 +4,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 146px;
+    gap: 20px;
+    @media only\ screen and (min-width: 900px) {
+      gap: 146px;
+    }
     &__top {
       display: flex;
       flex-direction: column;
@@ -40,27 +43,41 @@
           h2 {
             color: rgb(0, 0, 0);
             font-family: Inter;
-            font-size: 40px;
+            font-size: 20px;
             font-weight: 400;
-            line-height: 48px;
             letter-spacing: 0%;
             text-align: center;
+            @media only screen and (min-width: 450px) {
+              font-size: 30px;
+            }
+            @media only screen and (min-width: 600px) {
+              font-size: 40px;
+              line-height: 48px;
+            }
           }
           p {
             color: rgb(0, 0, 0);
             font-family: Inter;
-            font-size: 17px;
+            font-size: 12px;
             font-weight: 300;
-            line-height: 21px;
             letter-spacing: 0%;
             text-align: center;
+            @media only screen and (min-width: 450px) {
+              font-size: 17px;
+              line-height: 21px;
+            }
           }
         }
       }
       .class__wrapper__boxs {
         display: flex;
         align-items: center;
-        gap: 78px;
+        flex-direction: column;
+        gap: 20px;
+        @media only screen and (min-width: 950px) {
+          flex-direction: row;
+          gap: 78px;
+        }
         .class__wrapper__left {
           display: flex;
           flex-direction: column;
@@ -69,39 +86,54 @@
             display: flex;
             align-items: center;
             gap: 13px;
-            padding: 42px 40px 30px 20px;
+            padding: 5px;
             width: 100%;
             max-width: 611px;
             height: 110px;
             border-radius: 10px;
             box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.25);
             background: rgb(244, 247, 253);
+            @media only screen and (min-width: 600px) {
+              padding: 42px 40px 30px 20px;
+            }
             svg {
               width: 100%;
-              max-width: 78px;
-              height: 51.73px;
+
+              max-width: 40px;
+              height: 40px;
               color: rgb(247, 96, 96);
+              @media only screen and (min-width: 450px) {
+                max-width: 78px;
+                height: 51.73px;
+              }
             }
             &__right {
               display: flex;
               flex-direction: column;
+              gap: 5px;
               p {
                 color: rgb(0, 0, 0);
                 font-family: Inter;
-                font-size: 16px;
                 font-weight: 400;
-                line-height: 25px;
+                font-size: 12px;
                 letter-spacing: 0%;
-                text-align: center;
+                @media only screen and (min-width: 450px) {
+                  font-size: 16px;
+                  line-height: 25px;
+                  gap: 0px;
+                }
               }
               span {
                 color: rgb(0, 0, 0);
                 font-family: Inter;
-                font-size: 13px;
+                font-size: 10px;
                 font-weight: 200;
-                line-height: 21px;
                 letter-spacing: 0%;
-                text-align: center;
+                @media only screen and (min-width: 450px) {
+                  font-size: 13px;
+                  line-height: 21px;
+                  text-align: center;
+                }
               }
             }
           }
@@ -109,7 +141,7 @@
             display: flex;
             align-items: center;
             gap: 50px;
-            padding: 20px 70px 27px 41px;
+            padding: 5px;
             width: 100%;
             max-width: 611px;
             height: 75px;
@@ -117,23 +149,33 @@
             border-radius: 10px;
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
             background: rgb(244, 247, 253);
+            @media only screen and (min-width: 600px) {
+              padding: 20px 70px 27px 41px;
+            }
             img {
               width: 100%;
-              max-width: 48px;
-              height: 48px;
+              max-width: 40px;
+              height: 40px;
+              @media only screen and (min-width: 450px) {
+                max-width: 48px;
+                height: 48px;
+              }
             }
             p {
               color: rgb(0, 0, 0);
               font-family: Inter;
-              font-size: 16px;
+              font-size: 14px;
               font-weight: 400;
-              line-height: 25px;
               letter-spacing: 0%;
-              text-align: center;
+              @media only screen and (min-width: 400px) {
+                font-size: 16px;
+                line-height: 25px;
+                text-align: center;
+              }
             }
           }
           &__box__bottom {
-            padding: 13px 0px 13px 35px;
+            padding: 5px;
             display: flex;
             align-items: center;
             gap: 50px;
@@ -144,19 +186,29 @@
             border-radius: 10px;
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
             background: rgb(244, 247, 253);
+            @media only screen and (min-width: 600px) {
+              padding: 13px 0px 13px 35px;
+            }
             img {
               width: 100%;
-              max-width: 48px;
-              height: 48px;
+              max-width: 40px;
+              height: 40px;
+              @media only screen and (min-width: 450px) {
+                max-width: 48px;
+                height: 48px;
+              }
             }
             p {
               color: rgb(0, 0, 0);
               font-family: Inter;
-              font-size: 16px;
+              font-size: 14px;
               font-weight: 400;
-              line-height: 25px;
               letter-spacing: 0%;
-              text-align: center;
+              @media only screen and (min-width: 400px) {
+                font-size: 16px;
+                line-height: 25px;
+                text-align: center;
+              }
             }
           }
         }
