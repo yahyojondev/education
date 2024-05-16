@@ -56,7 +56,9 @@ const Navbar = () => {
       <div className="navbar">
         <div className="container">
           <div className="navbar__wrapper">
-            <img className="navbar__left__img" src={navlogo} alt="" />
+            <NavLink to={"/"}>
+              <img className="navbar__left__img" src={navlogo} alt="" />
+            </NavLink>
             <ul className="navbar__list">
               <li className="navbar__list__item">
                 <NavLink to={"/"}>CLASS 5-12</NavLink>

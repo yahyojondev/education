@@ -88,7 +88,8 @@ const Hero = () => {
               navigation={true}
               modules={[Autoplay, Pagination, Navigation]}
               centeredSlides={true}
-              className="swipper__wrapper  swipper__wrapper__two"
+              id="swipper__wrapper__two"
+              className="swipper__wrapper  "
             >
               <SwiperSlide>
                 <img src={swiperimg1} alt="alt" />
@@ -120,7 +121,8 @@ const Hero = () => {
               navigation={true}
               modules={[Autoplay, Pagination, Navigation]}
               centeredSlides={true}
-              className="swipper__wrapper swipper__wrapper__three"
+              id="swipper__wrapper__three"
+              className="swipper__wrapper "
             >
               <SwiperSlide>
                 <img src={swiperimg1} alt="alt" />
@@ -152,7 +154,8 @@ const Hero = () => {
               navigation={true}
               modules={[Autoplay, Pagination, Navigation]}
               centeredSlides={true}
-              className="swipper__wrapper  swipper__wrapper__four"
+              id="swipper__wrapper__four"
+              className="swipper__wrapper  "
             >
               <SwiperSlide>
                 <img src={swiperimg1} alt="alt" />

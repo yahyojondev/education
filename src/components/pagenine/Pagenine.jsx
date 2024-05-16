@@ -49,7 +49,8 @@ const Pagenine = () => {
           keyboard={true}
           modules={[Autoplay, Navigation, Mousewheel, Keyboard]}
           loop={true}
-          className="pagenine__cards pegenine__cards__two"
+          id="pegenine__cards__two"
+          className="pagenine__cards "
         >
           {pagenineItem}
         </Swiper>
@@ -66,7 +67,8 @@ const Pagenine = () => {
           keyboard={true}
           modules={[Autoplay, Navigation, Mousewheel, Keyboard]}
           loop={true}
-          className="pagenine__cards pegenine__cards__three"
+          id="pegenine__cards__three"
+          className="pagenine__cards "
         >
           {pagenineItem}
         </Swiper>
@@ -83,7 +85,8 @@ const Pagenine = () => {
           keyboard={true}
           modules={[Autoplay, Navigation, Mousewheel, Keyboard]}
           loop={true}
-          className="pagenine__cards pegenine__cards__four"
+          id="pegenine__cards__four"
+          className="pagenine__cards "
         >
           {pagenineItem}
         </Swiper>

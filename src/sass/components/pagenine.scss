@@ -44,7 +44,7 @@
     }
   }
 }
-.pegenine__cards__two {
+#pegenine__cards__two {
   display: none;
   @media only screen and (min-width: 440px) {
     display: flex !important;
@@ -54,7 +54,7 @@
   }
 }
 
-.pegenine__cards__three {
+#pegenine__cards__three {
   display: none;
   @media only screen and (min-width: 800px) {
     display: flex !important;
@@ -64,7 +64,7 @@
   }
 }
 
-.pegenine__cards__four {
+#pegenine__cards__four {
   display: none;
   @media only screen and (min-width: 1000px) {
     display: flex !important;

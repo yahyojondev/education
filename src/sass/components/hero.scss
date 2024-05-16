@@ -184,7 +184,7 @@
     }
   }
 }
-.swipper__wrapper__two {
+#swipper__wrapper__two {
   display: none;
   @media only screen and (min-width: 500px) {
     display: flex !important;
@@ -193,7 +193,7 @@
     display: none !important;
   }
 }
-.swipper__wrapper__three {
+#swipper__wrapper__three {
   display: none;
   @media only screen and (min-width: 600px) {
     display: flex !important;
@@ -202,7 +202,7 @@
     display: none !important;
   }
 }
-.swipper__wrapper__four {
+#swipper__wrapper__four {
   display: none;
   @media only screen and (min-width: 800px) {
     display: flex !important;
