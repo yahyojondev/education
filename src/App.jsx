@@ -1,4 +1,4 @@
-import "./App.css";
+import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/home/Home";
 import Skill from "./pages/skill/Skill";
@@ -13,6 +13,8 @@ import "swiper/css/navigation";
 import Footer from "./components/footer/Footer";
 
 function App() {
+  const [see, setSee] = useState(false);
+
   return (
     <>
       <Header />
