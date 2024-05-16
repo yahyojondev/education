@@ -1,7 +1,7 @@
-import React from "react";
+import React, { memo } from "react";
 
 const Skill = () => {
   return <div>Skill</div>;
 };
 
-export default Skill;
+export default memo(Skill);

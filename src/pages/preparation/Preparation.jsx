@@ -1,7 +1,7 @@
-import React from "react";
+import React, { memo } from "react";
 
 const Preparation = () => {
   return <div>Preparation</div>;
 };
 
-export default Preparation;
+export default memo(Preparation);

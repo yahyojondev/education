@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { memo, useState } from "react";
 import { NavLink } from "react-router-dom";
 import navlogo from "../../assets/images/navleft.png";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -103,4 +103,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default memo(Navbar);

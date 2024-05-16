@@ -53,4 +53,4 @@ const Teachers = () => {
   );
 };
 
-export default Teachers;
+export default memo(Teachers);

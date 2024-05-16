@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import natureimages from "../../assets/images/nature.png";
 
 const Nature = () => {
@@ -9,4 +9,4 @@ const Nature = () => {
   );
 };
 
-export default Nature;
+export default memo(Nature);

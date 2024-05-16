@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, memo } from "react";
 import studentimages from "../../assets/images/student.svg";
 import { FaAngleRight } from "react-icons/fa6";
 import { Button } from "@mui/material";
@@ -27,4 +27,4 @@ const Dream = () => {
   );
 };
 
-export default Dream;
+export default memo(Dream);

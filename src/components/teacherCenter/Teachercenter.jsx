@@ -21,4 +21,4 @@ const Teachercenter = () => {
   );
 };
 
-export default Teachercenter;
+export default memo(Teachercenter);

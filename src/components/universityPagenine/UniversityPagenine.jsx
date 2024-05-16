@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Mousewheel, Keyboard } from "swiper/modules";
 import { universityproduct } from "../../static/router";
@@ -95,4 +95,4 @@ const Pagenine = () => {
   );
 };
 
-export default Pagenine;
+export default memo(Pagenine);

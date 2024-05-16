@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import { FaChevronRight } from "react-icons/fa";
 import { ownproduct } from "../../static/router";
 
@@ -30,4 +30,4 @@ const Own = () => {
   );
 };
 
-export default Own;
+export default memo(Own);

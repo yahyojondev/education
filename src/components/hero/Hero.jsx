@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, memo } from "react";
 import { FaArrowRight } from "react-icons/fa6";
 import { heroItemproduct } from "../../static/router";
 import swiperimg1 from "../../assets/images/course3.png";
@@ -183,4 +183,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default memo(Hero);

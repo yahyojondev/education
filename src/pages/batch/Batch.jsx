@@ -1,7 +1,7 @@
-import React from "react";
+import React, { memo } from "react";
 
 const Batch = () => {
   return <div>Batch</div>;
 };
 
-export default Batch;
+export default memo(Batch);

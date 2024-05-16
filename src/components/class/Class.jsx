@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import studentimages from "../../assets/images/student.svg";
 import { Button } from "@mui/material";
 import { FaAngleRight } from "react-icons/fa6";
@@ -61,4 +61,4 @@ const Class = () => {
   );
 };
 
-export default Class;
+export default memo(Class);

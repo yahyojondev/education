@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import navbarbottom1 from "../../assets/images/navbarbottom1.png";
 import navbarbottom2 from "../../assets/images/navbarbottom2.png";
 import navbarbottom3 from "../../assets/images/navbarbottom3.png";
@@ -27,4 +27,4 @@ const NavbarBottom = () => {
   );
 };
 
-export default NavbarBottom;
+export default memo(NavbarBottom);

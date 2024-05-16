@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import { courseproduct } from "../../static/router";
 
 const Course = () => {
@@ -24,4 +24,4 @@ const Course = () => {
   );
 };
 
-export default Course;
+export default memo(Course);

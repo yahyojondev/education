@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import raketaimg from "../../assets/images/raketa.svg";
 import checkimg from "../../assets/images/check.svg";
 import platformimages from "../../assets/images/plaform.png";
@@ -44,4 +44,4 @@ const Platform = () => {
   );
 };
 
-export default Platform;
+export default memo(Platform);

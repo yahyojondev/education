@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import appimg from "../../assets/images/app.png";
 import playimg from "../../assets/images/play.png";
 import phoneimg from "../../assets/images/phone.png";
@@ -30,4 +30,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default memo(Footer);
