@@ -35,17 +35,32 @@
         h2 {
           color: rgb(255, 255, 255);
           font-family: Inter;
-          font-size: 28px;
+          font-size: 20px;
+          text-align: center;
           font-weight: 500;
-          line-height: 34px;
           letter-spacing: 0%;
+          @media only screen and (min-width: 450px) {
+            font-size: 28px;
+            line-height: 34px;
+            text-align: start;
+          }
         }
       }
       .platform__list {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 120px;
+        flex-direction: column;
+        gap: 40px;
+        @media only screen and (min-width: 600px) {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+        }
+        @media only screen and (min-width: 800px) {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          gap: 120px;
+        }
         li {
           display: flex;
           align-items: center;
@@ -71,18 +86,26 @@
       align-items: center;
       position: relative;
       img {
+        width: 100%;
         margin: 0 auto;
         border-radius: 10px;
       }
       h3 {
-        top: 25px;
+        top: -60px;
         position: absolute;
         color: rgb(255, 255, 255);
         font-family: Inter;
-        font-size: 21px;
+        font-size: 14px;
+        text-align: center;
         font-weight: 800;
-        line-height: 25px;
         letter-spacing: 0%;
+        @media only screen and (min-width: 600px) {
+          font-size: 21px;
+          line-height: 25px;
+        }
+        @media only screen and (min-width: 1000px) {
+          top: 25px;
+        }
       }
     }
   }

@@ -1,5 +1,6 @@
 .own {
   padding: 0px 0px 70px;
+  background-color: #f4f7fd;
   &__wrapper {
     display: flex;
     flex-direction: column;
@@ -44,8 +45,15 @@
       align-items: center;
       justify-content: center;
       flex-wrap: wrap;
-      column-gap: 81px;
       row-gap: 33px;
+      @media only screen and (min-width: 800px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+      }
+      @media only screen and (min-width: 1280px) {
+        column-gap: 81px;
+      }
       .own__card {
         padding: 10px;
         width: 100%;

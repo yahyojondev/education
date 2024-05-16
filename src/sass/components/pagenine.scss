@@ -1,5 +1,9 @@
 .pagenine {
+  width: 100%;
   .pagenine__cards {
+    @media only screen and (min-width: 440px) {
+      display: none;
+    }
     .pagenine__card {
       width: 100%;
       max-width: 271px;
@@ -36,5 +40,31 @@
         }
       }
     }
+  }
+}
+.pegenine__cards__two {
+  display: none;
+  @media only screen and (min-width: 440px) {
+    display: flex !important;
+  }
+  @media only screen and (min-width: 800px) {
+    display: none !important;
+  }
+}
+
+.pegenine__cards__three {
+  display: none;
+  @media only screen and (min-width: 800px) {
+    display: flex !important;
+  }
+  @media only screen and (min-width: 1000px) {
+    display: none !important;
+  }
+}
+
+.pegenine__cards__four {
+  display: none;
+  @media only screen and (min-width: 1000px) {
+    display: flex !important;
   }
 }

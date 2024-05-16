@@ -19,9 +19,9 @@ const Pagenine = () => {
     <div className="pagenine">
       <div className="container">
         <Swiper
-          slidesPerView={4}
+          slidesPerView={1}
           spaceBetween={30}
-          //   centeredSlides={true}
+          centeredSlides={true}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
@@ -33,6 +33,57 @@ const Pagenine = () => {
           modules={[Autoplay, Navigation, Mousewheel, Keyboard]}
           loop={true}
           className="pagenine__cards"
+        >
+          {pagenineItem}
+        </Swiper>
+        <Swiper
+          slidesPerView={2}
+          spaceBetween={30}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          cssMode={true}
+          navigation={true}
+          mousewheel={true}
+          keyboard={true}
+          modules={[Autoplay, Navigation, Mousewheel, Keyboard]}
+          loop={true}
+          className="pagenine__cards pegenine__cards__two"
+        >
+          {pagenineItem}
+        </Swiper>
+        <Swiper
+          slidesPerView={3}
+          spaceBetween={30}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          cssMode={true}
+          navigation={true}
+          mousewheel={true}
+          keyboard={true}
+          modules={[Autoplay, Navigation, Mousewheel, Keyboard]}
+          loop={true}
+          className="pagenine__cards pegenine__cards__three"
+        >
+          {pagenineItem}
+        </Swiper>
+        <Swiper
+          slidesPerView={4}
+          spaceBetween={30}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          cssMode={true}
+          navigation={true}
+          mousewheel={true}
+          keyboard={true}
+          modules={[Autoplay, Navigation, Mousewheel, Keyboard]}
+          loop={true}
+          className="pagenine__cards pegenine__cards__four"
         >
           {pagenineItem}
         </Swiper>

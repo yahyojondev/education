@@ -3,6 +3,7 @@
   @media only screen and (min-width: 900px) {
     padding: 250px 0px 57px;
   }
+  background-color: #f4f7fd;
   &__wrapper {
     display: flex;
     flex-direction: column;
@@ -58,7 +59,7 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
       }
-      @media only screen and (min-width: 800px) {
+      @media only screen and (min-width: 810px) {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 10px;
