@@ -5,6 +5,7 @@ import teacherimg from "../../assets/images/teacher.png";
 import { teacherproduct } from "../../static/router";
 import teacherbottomimages from "../../assets/images/teacherbottomright.png";
 import Teachercenter from "../teacherCenter/Teachercenter";
+import { memo } from "react";
 
 const Teachers = () => {
   const teacherItem = teacherproduct?.map((el) => (

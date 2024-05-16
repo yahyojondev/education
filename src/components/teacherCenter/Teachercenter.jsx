@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import teacherCenterImages from "../../assets/images/toast.png";
 import { Button } from "@mui/material";
 import { FaAngleRight } from "react-icons/fa6";
