@@ -6,55 +6,87 @@
     flex-direction: column;
     gap: 24px;
     .footer__top {
-      padding: 33px 0px 46px 45px;
+      padding: 20px;
       display: flex;
       flex-direction: column;
       gap: 8px;
       border-radius: 7px;
       height: 100px;
       background: rgb(34, 33, 76);
+      @media only screen and (min-width: 450px) {
+        padding: 33px 0px 46px 45px;
+      }
       h3 {
         color: rgb(255, 255, 255);
         font-family: Inter;
-        font-size: 18px;
+        // font-size: 18px;
+        font-size: 12px;
         font-weight: 700;
         letter-spacing: 0%;
+        @media only screen and (min-width: 400px) {
+          font-size: 16px;
+        }
+        @media only screen and (min-width: 600px) {
+          font-size: 18px;
+        }
       }
       span {
         color: rgba(255, 255, 255, 0.61);
         font-family: Inter;
-        font-size: 14px;
+        font-size: 12px;
         padding-left: 10px;
         font-weight: 500;
         letter-spacing: 0%;
+        @media only screen and (min-width: 400px) {
+          font-size: 14px;
+        }
       }
     }
     .footer__bottom {
       display: flex;
+      flex-direction: column;
+      align-items: center;
       border-radius: 7px;
-      height: 319px;
       background: rgb(34, 33, 76);
       justify-content: space-between;
+      @media only screen and (min-width: 820px) {
+        flex-direction: row;
+        height: 319px;
+        align-items: start;
+      }
       &__left {
-        padding: 61px 0px 38px 46px;
+        padding: 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        @media only screen and (min-width: 900px) {
+          padding: 61px 0px 38px 46px;
+        }
         h2 {
           color: rgb(255, 255, 255);
           font-family: Inter;
           width: 100%;
           max-width: 526px;
           height: 164px;
-          font-size: 42px;
+          font-size: 20px;
           font-weight: 500;
-          line-height: 51px;
           letter-spacing: 0%;
           text-align: center;
+          @media only screen and (min-width: 400px) {
+            font-size: 30px;
+          }
+          @media only screen and (min-width: 600px) {
+            font-size: 42px;
+            line-height: 51px;
+          }
         }
         &__images__wrapper {
           display: flex;
           align-items: center;
+          flex-direction: column;
+          @media only screen and (min-width: 400px) {
+            flex-direction: row;
+          }
           gap: 10px;
           img {
             width: 100%;
@@ -67,9 +99,14 @@
       &__right {
         img {
           width: 100%;
-          max-width: 456px;
-          height: 320px;
-          object-fit: cover;
+
+          // max-width: 200px;
+          // height: 200px;
+          // object-fit: cover;
+          @media only screen and (min-width: 820px) {
+            max-width: 456px;
+            height: 320px;
+          }
         }
       }
     }
