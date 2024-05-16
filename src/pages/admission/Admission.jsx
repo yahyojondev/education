@@ -1,7 +1,14 @@
 import React, { memo } from "react";
+import Empty from "../../components/empty/Empty";
 
 const Admission = () => {
-  return <div>Admission</div>;
+  window.scrollTo(0, 0);
+
+  return (
+    <div className="admission">
+      <Empty />
+    </div>
+  );
 };
 
 export default memo(Admission);

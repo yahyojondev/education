@@ -10,6 +10,7 @@ import University from "../../components/university/University";
 import Teachers from "../../components/teachers/Teachers";
 
 const Home = () => {
+  window.scrollTo(0, 0);
   return (
     <div className="home">
       <Hero />
