@@ -1,0 +1,109 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  z-index: 9999999;
+  height: 80px;
+  background-color: #f4f7fd;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .navbar__left__img {
+      width: 100%;
+      max-width: 106px;
+      height: 29px;
+      object-fit: contain;
+    }
+    .navbar__list {
+      display: none;
+      align-items: center;
+      gap: 30px;
+      @media only screen and (min-width: 800px) {
+        display: flex;
+      }
+      li {
+        a {
+          color: rgb(0, 0, 0);
+          font-family: Inter;
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 18px;
+          letter-spacing: 0%;
+        }
+        a.active {
+          color: rgb(9, 247, 247);
+          text-decoration: underline;
+        }
+      }
+    }
+    .navbar__wrapper__right {
+      display: none;
+      align-items: center;
+      gap: 30px;
+      @media only screen and (min-width: 1100px) {
+        display: flex;
+      }
+      select {
+        width: 48px;
+        height: 22px;
+        box-sizing: border-box;
+        border: 0.3px solid rgb(0, 0, 0);
+        border: none;
+        outline: none;
+        border-radius: 2px;
+        color: rgb(0, 0, 0);
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 18px;
+        letter-spacing: 0%;
+        box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.55);
+      }
+      .number__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        svg {
+          width: 17px;
+          height: 21.46px;
+        }
+        span {
+          color: rgb(9, 247, 247);
+          font-family: Inter;
+          font-size: 22px;
+          font-weight: 600;
+          line-height: 27px;
+          letter-spacing: 0%;
+        }
+      }
+      .login__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        border-radius: 5px;
+        width: 101px;
+        height: 38px;
+        background: rgb(9, 247, 247);
+        svg {
+          color: white;
+          font-size: 20px;
+        }
+        span {
+          color: rgb(252, 252, 252);
+          font-family: Inter;
+          font-size: 16px;
+          font-weight: 800;
+          line-height: 19px;
+          letter-spacing: 0%;
+        }
+      }
+    }
+    .navbar__burger {
+      font-size: 25px;
+      @media only screen and (min-width: 1100px) {
+        display: none;
+      }
+    }
+  }
+}

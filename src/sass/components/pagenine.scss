@@ -1,0 +1,40 @@
+.pagenine {
+  .pagenine__cards {
+    .pagenine__card {
+      width: 100%;
+      max-width: 271px;
+      height: 300px;
+      border-radius: 10px;
+      border: 1px solid #ddd;
+      img {
+        width: 100%;
+        max-width: 271px;
+        height: 160px;
+        border-radius: 10px 10px 0px 0px;
+        object-fit: cover;
+      }
+      .pagenine__card__content {
+        display: flex;
+        flex-direction: column;
+        padding: 5px 5px 10px 10px;
+        gap: 15px;
+        p {
+          color: rgb(0, 0, 0);
+          font-family: Inter;
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 22px;
+          letter-spacing: 0%;
+        }
+        span {
+          color: rgb(1, 117, 117);
+          font-family: Inter;
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 24px;
+          letter-spacing: 0%;
+        }
+      }
+    }
+  }
+}
