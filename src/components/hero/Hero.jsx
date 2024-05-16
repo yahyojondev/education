@@ -48,7 +48,7 @@ const Hero = () => {
             <Swiper
               loop={true}
               spaceBetween={30}
-              slidesPerView={4}
+              slidesPerView={1}
               autoplay={{
                 delay: 2500,
                 disableOnInteraction: false,
@@ -57,6 +57,102 @@ const Hero = () => {
               modules={[Autoplay, Pagination, Navigation]}
               centeredSlides={true}
               className="swipper__wrapper"
+            >
+              <SwiperSlide>
+                <img src={swiperimg1} alt="alt" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={swiperimg3} alt="alt" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={swiperimg2} alt="alt" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={swiperimg4} alt="alt" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={swiperimg3} alt="alt" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={swiperimg1} alt="alt" />
+              </SwiperSlide>
+            </Swiper>
+            <Swiper
+              loop={true}
+              spaceBetween={30}
+              slidesPerView={2}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              navigation={true}
+              modules={[Autoplay, Pagination, Navigation]}
+              centeredSlides={true}
+              className="swipper__wrapper  swipper__wrapper__two"
+            >
+              <SwiperSlide>
+                <img src={swiperimg1} alt="alt" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={swiperimg3} alt="alt" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={swiperimg2} alt="alt" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={swiperimg4} alt="alt" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={swiperimg3} alt="alt" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={swiperimg1} alt="alt" />
+              </SwiperSlide>
+            </Swiper>
+            <Swiper
+              loop={true}
+              spaceBetween={30}
+              slidesPerView={3}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              navigation={true}
+              modules={[Autoplay, Pagination, Navigation]}
+              centeredSlides={true}
+              className="swipper__wrapper swipper__wrapper__three"
+            >
+              <SwiperSlide>
+                <img src={swiperimg1} alt="alt" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={swiperimg3} alt="alt" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={swiperimg2} alt="alt" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={swiperimg4} alt="alt" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={swiperimg3} alt="alt" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={swiperimg1} alt="alt" />
+              </SwiperSlide>
+            </Swiper>
+            <Swiper
+              loop={true}
+              spaceBetween={30}
+              slidesPerView={4}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              navigation={true}
+              modules={[Autoplay, Pagination, Navigation]}
+              centeredSlides={true}
+              className="swipper__wrapper  swipper__wrapper__four"
             >
               <SwiperSlide>
                 <img src={swiperimg1} alt="alt" />
